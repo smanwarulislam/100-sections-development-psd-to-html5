@@ -1,1 +1,1 @@
-# 100-sections-development-psd-to-html-5
+# 100+ Sections Development (PSD to HTML5) - RRF Online Course
