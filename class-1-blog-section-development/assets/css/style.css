@@ -1,0 +1,142 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #565656;
+    font-size: 17px;
+}
+
+a:hover { text-decoration: none }
+
+.blog-box-bg-1 {
+    background-image: url(../img/blog-box-1.jpg);
+}
+
+.blog-box-bg-2 {
+    background-image: url(../img/blog-box-2.jpg);
+}
+
+.blog-box-bg-3 {
+    background-image: url(../img/blog-box-3.jpg);
+}
+
+h2 {
+    font-size: 32px;
+}
+
+section.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    text-align: center;
+    color: #565656;
+    font-size: 17px;
+    margin-bottom: 70px;
+}
+
+.section-title h2 {
+    color: #222;
+}
+
+.horizontal-line-bg {
+    background-image: url(../img/horizontal-line.jpg);
+    width: 60px;
+    height: 2px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.blog-box-bg {
+    background-position: center center;
+    height: 200px;
+    background-size: cover;
+    background-color: #ddd;
+    border: 1px solid #fdaf67;
+}
+
+.blog-box-bg {
+    border-bottom: 0 solid;
+}
+
+.blog-box-content {
+    border: 1px solid #f4f4f4;
+    padding: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.blog-meta {
+    font-size: 14px;
+}
+
+.blog-meta i.fa {
+    color: #fdaf67;
+    margin-right: 10px;
+}
+
+.blog-meta a {
+    color: #565656;
+}
+
+.blog-meta span {
+    margin-right: 30px;
+}
+
+.blog-meta span:last-child {
+    margin-right: 0px;
+}
+
+.blog-box-content h3 {
+    font-size: 20px;
+    margin-top: 15px;   
+}
+
+.blog-readmore-btn {
+    background: #fd8e2e none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 5px;
+    transition: all .2s ease 0s;
+}
+
+.blog-readmore-btn:hover {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.single-blog-box:hover .blog-box-content {
+    border-color: #fd8e2e;
+}
