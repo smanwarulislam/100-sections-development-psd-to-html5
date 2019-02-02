@@ -1,0 +1,114 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.sction-padding {
+    padding: 80px 0;
+}
+
+
+.quote-from-wrap img {
+    display: block;
+    margin: 0 auto;
+}
+
+.blue-quote-form {
+    background: #2ab6fb none repeat scroll 0 0;
+    margin-top: -84px;
+    max-width: 770px;
+    padding-top: 43px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 55px;
+}
+
+.blue-quote-form h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.blue-quote-form h3::before {
+    position: absolute;
+    left: 50%;
+    height: 1px;
+    width: 130px;
+    content: "";
+    background: #fff;
+    bottom: 0;
+    margin-left: -65px;
+}
+
+.blue-quote-form h3::after {
+    position: absolute;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid #fff;
+    bottom: -6px;
+    margin-left: -6px;
+    border-radius: 50%;
+}
+
+.blue-quote-form input, .blue-quote-form textarea {
+    border: medium none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+.blue-quote-form input, .blue-quote-form textarea {
+    border-bottom: 1px solid #8fdafc;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.blue-quote-form textarea {
+    height: 100px;
+}
+
+.blue-form-submit {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.blue-form-submit button[type="submit"] {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    color: #2ab6fb;
+    padding: 10px 30px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
