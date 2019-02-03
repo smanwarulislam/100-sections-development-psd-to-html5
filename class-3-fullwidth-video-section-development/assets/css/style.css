@@ -1,0 +1,110 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.video-area-bg {
+    background-image: url(../images/video-bg.jpg);
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+
+.check-icon li:before {
+    font-family: fontAwesome;
+    content: "\f00c";
+}
+
+.video-area {
+    position: relative;
+    padding: 80px 0;
+}
+
+.video-area-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    box-shadow: 0 0 20px #888;
+}
+
+.video-play-btn {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    background: #2ecc71 none repeat scroll 0 0;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+    font-size: 20px;
+    border-radius: 50%;
+    padding-left: 7px;
+    margin-top: -50px;
+}
+
+body {
+    color: #8b8b8b;
+}
+
+h2 {
+    color: #373737;
+}
+
+.paragraph {
+    line-height: 23px;
+}
+
+ul.check-icon {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    color: #8adea8;
+    margin-top: 37px;
+}
+
+.check-icon li {
+    position: relative;
+    color: #373737;
+    padding-left: 32px;
+    padding-bottom: 10px;
+}
+
+.check-icon li:before {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: #2ecc71;
+}
